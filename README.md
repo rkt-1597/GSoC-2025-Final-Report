@@ -6,7 +6,8 @@
 - GitLab Epic : [https://gitlab.rtems.org/groups/rtems/-/epics/28](https://gitlab.rtems.org/groups/rtems/-/epics/28)
 - Activity : [https://gitlab.rtems.org/prithvi77](https://gitlab.rtems.org/prithvi77)
 - GitLab Issue : [https://gitlab.rtems.org/rtems/programs/gsoc/-/issues/77](https://gitlab.rtems.org/rtems/programs/gsoc/-/issues/77)
-- Final GSoC Work MR Link : https://gitlab.rtems.org/rtems/pkg/rtems-lwip/-/merge_requests/29
+- Final GRETH Driver MR link: https://gitlab.rtems.org/rtems/pkg/rtems-lwip/-/merge_requests/40
+- Initial GSoC Work MR Link : https://gitlab.rtems.org/rtems/pkg/rtems-lwip/-/merge_requests/29
 - GRETH lwIP Driver latest state with tests at branch : https://gitlab.rtems.org/prithvi77/rtems-lwip/-/tree/GSoC-25-Final-Work-Tests?ref_type=heads
 - Documentation : https://gitlab.rtems.org/rtems/docs/rtems-docs/-/merge_requests/192
 
@@ -233,6 +234,9 @@ These tests have been tested on `Ubuntu 22.04.5 LTS (jammy)`
         `>>> ./ucast_client`       
 
         Successful test will show the messages transmitetd by `ucast_client` being received by `rx_udp.exe`  
+
+# Post-GSoC Status Update (June 2026)
+The foundational work for this driver, originally submitted during my GSoC term in [MR !29](https://gitlab.rtems.org/rtems/pkg/lwip/-/merge_requests/29), was successfully built upon, refined & reviewed by Matteo Concas & Kinsey Moore and the code was merged into the main branch via [MR !40](https://gitlab.rtems.org/rtems/pkg/lwip/-/merge_requests/40).
 
 # Conclusion
 I am sincerely grateful for the opportunity to participate in Google Summer of Code 2025. This program has been an invaluable learning experience, allowing me to enhance my technical skills, gain hands-on experience in open-source development, and understand the importance of collaboration and mentorship. I would like to thank my mentors Pavel Pisa, Vijay Banerjee, Kinsey Moore and Matteo Concas and the community for their guidance and support throughout the project. This experience has not only strengthened my knowledge but also inspired me to continue contributing to open-source projects in the future.
